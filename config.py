@@ -8,7 +8,7 @@ from logging.handlers import RotatingFileHandler
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7016950483:AAGhfgQdjQycjQvRlRtssM52ecqoe_EuCt0")
 APP_ID = int(os.environ.get("APP_ID", "24314601"))
 API_HASH = os.environ.get("API_HASH", "ede341e2d490a0fad5469866dedf8a95")
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001666373414"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002010704094"))
 OWNER_ID = int(os.environ.get("OWNER_ID", "1058015838"))
 PORT = os.environ.get("PORT", "8080")
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://22duddududdu:22duddududdu@cluster0.acjczor.mongodb.net/?retryWrites=true&w=majority")
@@ -30,7 +30,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.")
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "1058015838 640617767").split()):
+    for x in (os.environ.get("ADMINS", "1058015838 640617767 5051689666").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
