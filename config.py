@@ -2,13 +2,13 @@ import os
 import logging
 from logging.handlers import RotatingFileHandler
 
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7016950483:AAGutigXxaZmbvZSy0NJqx_vISfJuEUg_Pk")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7087904436:AAFkc14bwrFK7B_oGMuYYJD6lLC-dpJK4yQ")
 APP_ID = int(os.environ.get("APP_ID", "24314601"))
 API_HASH = os.environ.get("API_HASH", "ede341e2d490a0fad5469866dedf8a95")
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002010704094"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002040655722"))
 OWNER_ID = int(os.environ.get("OWNER_ID", "1058015838"))
 PORT = os.environ.get("PORT", "8080")
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://22duddududdu:22duddududdu@cluster0.acjczor.mongodb.net/?retryWrites=true&w=majority")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://20duddududdu:20duddududdu@cluster0.pekmxao.mongodb.net/?retryWrites=true&w=majority)
 DB_NAME = os.environ.get("DATABASE_NAME", "filestore")
 
 
@@ -19,7 +19,7 @@ SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "publicearn.com")
 SHORTLINK_API = os.environ.get('SHORTLINK_API', "3a269171611fa7e5146fdf07b500d4137293bd7a")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002215944038"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
@@ -27,7 +27,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.")
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "1058015838 640617767 5051689666 6178075056").split()):
+    for x in (os.environ.get("ADMINS", "1058015838 640617767").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
