@@ -8,7 +8,7 @@ API_HASH = os.environ.get("API_HASH", "ede341e2d490a0fad5469866dedf8a95")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002040655722"))
 OWNER_ID = int(os.environ.get("OWNER_ID", "1058015838"))
 PORT = os.environ.get("PORT", "8080")
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://20duddududdu:20duddududdu@cluster0.pekmxao.mongodb.net/?retryWrites=true&w=majority)
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://20duddududdu:20duddududdu@cluster0.pekmxao.mongodb.net/?retryWrites=true&w=majority")
 DB_NAME = os.environ.get("DATABASE_NAME", "filestore")
 
 
