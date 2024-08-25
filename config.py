@@ -19,7 +19,7 @@ SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "publicearn.com")
 SHORTLINK_API = os.environ.get('SHORTLINK_API', "3a269171611fa7e5146fdf07b500d4137293bd7a")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", ""))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
