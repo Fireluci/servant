@@ -19,7 +19,7 @@ SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "shortxlinks.com")
 SHORTLINK_API = os.environ.get('SHORTLINK_API', "a8e14ed22a41178fcf4428d91af44eadfe5d794b")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002215944038"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
