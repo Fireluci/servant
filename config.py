@@ -13,8 +13,6 @@ DB_NAME = os.environ.get("DATABASE_NAME", "filestore")
 
 
 
-
-#SHORTLINK
 SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "shortxlinks.com")
 SHORTLINK_API = os.environ.get('SHORTLINK_API', "a8e14ed22a41178fcf4428d91af44eadfe5d794b")
 
