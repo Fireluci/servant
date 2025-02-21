@@ -13,8 +13,8 @@ DB_NAME = os.environ.get("DATABASE_NAME", "filestore")
 
 
 
-SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "shortxlinks.com")
-SHORTLINK_API = os.environ.get('SHORTLINK_API', "a8e14ed22a41178fcf4428d91af44eadfe5d794b")
+SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "api.modijiurl.com")
+SHORTLINK_API = os.environ.get('SHORTLINK_API', "273942ceca49571e676c46e17096a908d2fb8965")
 
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001877433573"))
