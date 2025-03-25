@@ -17,7 +17,7 @@ SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "api.modijiurl.com")
 SHORTLINK_API = os.environ.get('SHORTLINK_API', "273942ceca49571e676c46e17096a908d2fb8965")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001877433573"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", ""))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
