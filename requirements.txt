@@ -1,4 +1,6 @@
-pyrotgfork[fast]
+# --- For-Bot-Working --------- #
+pyrogram
+TgCrypto
 pyromod==1.5
 # --- For-Database ------------ #
 pymongo
