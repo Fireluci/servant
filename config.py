@@ -5,7 +5,7 @@ from logging.handlers import RotatingFileHandler
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
 APP_ID = int(os.environ.get("APP_ID", "24314601"))
 API_HASH = os.environ.get("API_HASH", "ede341e2d490a0fad5469866dedf8a95")
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002040655722"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", '-1002040655722'))
 OWNER_ID = int(os.environ.get("OWNER_ID", "1058015838"))
 PORT = os.environ.get("PORT", "8080")
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://20duddududdu:20duddududdu@cluster0.pekmxao.mongodb.net/?retryWrites=true&w=majority")
@@ -17,7 +17,7 @@ SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "easysky.in")
 SHORTLINK_API = os.environ.get('SHORTLINK_API', "a3f19acc6e58669565e8a3eb4cd5f7b040db4989")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", '-1001877433573'))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", ''))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
